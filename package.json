@@ -15,14 +15,19 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.0",
     "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/composition-api": "^0.14.0",
+    "@nuxtjs/firebase": "^7.1.0",
     "@nuxtjs/pwa": "^3.0.2",
-    "@vue/composition-api": "^1.0.0-beta.18",
     "core-js": "^3.6.5",
+    "dotenv": "^8.2.0",
+    "firebase": "^8.0.1",
     "nuxt": "^2.14.6"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.0.3",
     "@nuxt/types": "^2.14.6",
     "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/color-mode": "^2.0.0",
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-config-typescript": "^3.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
@@ -36,11 +41,15 @@
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "fibers": "^5.0.0",
     "jest": "^26.5.0",
     "prettier": "^2.1.2",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.0.5",
     "stylelint": "^13.7.2",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
+    "tailwindcss-dark-mode": "^1.1.7",
     "ts-jest": "^26.4.1",
     "vue-jest": "^3.0.4"
   }

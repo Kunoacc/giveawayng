@@ -1,0 +1,50 @@
+/* stylelint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable */
+
+/* stylelint-disable-next-line */
+@layer base {
+  // FONT FACES
+  @font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('~assets/fonts/Product Sans Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('~assets/fonts/Product Sans Bold.ttf') format('truetype');
+  }
+
+  html {
+    @apply font-body;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-xl;
+  }
+
+  h5 {
+    @apply text-lg;
+  }
+
+}
